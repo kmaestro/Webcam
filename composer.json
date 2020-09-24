@@ -1,0 +1,18 @@
+{
+    "name": "kmaestro/webcam",
+    "authors": [
+        {
+            "name": "Полищук Дмитрий",
+            "email": "polishuk1003@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "ext-FFI": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kmaestro\\Webcam\\": "src/"
+        }
+    }
+}
